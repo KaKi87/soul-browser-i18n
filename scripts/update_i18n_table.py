@@ -74,7 +74,7 @@ def collect_stats(language_dir: Path) -> tuple[int, list[dict]]:
             }
         )
 
-    rows.sort(key=lambda row: (not row["is_base"], -row["ratio"], row["name"].casefold()))
+    rows.sort(key=lambda row: (not row["is_base"], row["folder"]))
     return base_total, rows
 
 

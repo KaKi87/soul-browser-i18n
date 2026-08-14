@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">简体中文</string>
     <string name="app_name">Soul</string>
     <string name="notice">按下开始按钮即表示你同意 Soul Browser %1$s和%2$s</string>
     <string name="notice_tos">使用条款</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">现在就尝试一下</string>
     <string name="freq_asked">经常问的问题</string>
     <string name="blog_title">博客</string>
-    <string name="language_name">简体中文</string>
 </resources>

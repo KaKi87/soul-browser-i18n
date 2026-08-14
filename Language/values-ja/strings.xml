@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">日本語</string>
     <string name="app_name">Soul</string>
     <string name="notice">開始ボタンを押すと、 Soul Browser %1$sと%2$sに同意します。</string>
     <string name="notice_tos">利用規約</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">今すぐ使ってみてください。</string>
     <string name="freq_asked">よくある質問</string>
     <string name="blog_title">ブログ</string>
-    <string name="language_name">日本語</string>
 </resources>

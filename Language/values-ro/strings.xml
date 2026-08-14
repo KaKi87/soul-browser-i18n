@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Română</string>
     <string name="app_name">Soul</string>
     <string name="notice">Prin apăsarea butonului Start, sunteți de acord cu Browser-ul Soul\n%1$s și %2$s.</string>
     <string name="notice_tos">Termeni și condiții</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">Încercați-l chiar acum.</string>
     <string name="freq_asked">Întrebări frecvente</string>
     <string name="blog_title">블로그</string>
-    <string name="language_name">Română</string>
 </resources>

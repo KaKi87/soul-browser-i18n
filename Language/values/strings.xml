@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">English</string>
     <string name="app_name">Soul2 Browser</string>
     <string name="notice">"By pressing the Start button, you agree to the Soul Browser
 %1$s and %2$s."</string>
@@ -1065,5 +1066,4 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="tab_homepage_set">Homepage set</string>
     <string name="web_page_dark_info">When set to Light, global web page display cannot be overriden for specific sites.</string>
     <string name="with_buttons">Inline with buttons</string>
-    <string name="language_name">English</string>
 </resources>

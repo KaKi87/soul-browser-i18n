@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">한국어</string>
     <string name="app_name">Soul</string>
     <string name="notice">시작 버튼을 누르시면, Soul Browser\n%1$s과 %2$s에 동의하게 됩니다.</string>
     <string name="notice_tos">이용약관</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">지금 바로 사용해 보세요.</string>
     <string name="freq_asked">자주 묻는 질문</string>
     <string name="blog_title">블로그</string>
-    <string name="language_name">한국어</string>
 </resources>

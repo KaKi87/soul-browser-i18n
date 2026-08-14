@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Українська</string>
     <string name="app_name">Soul</string>
     <string name="notice">Натиснувши кнопку «Почати роботу», ви погоджуєтесь із %1$s і %2$s браузера Soul.</string>
     <string name="notice_tos">Умови використання</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">Спробуйте прямо зараз.</string>
     <string name="freq_asked">Часто задавані питання</string>
     <string name="blog_title">Блог</string>
-    <string name="language_name">Українська</string>
 </resources>

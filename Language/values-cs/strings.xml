@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Čeština</string>
     <string name="app_name">Soul</string>
     <string name="notice">Stisknutím tlačítka Start souhlasíte s \n%1$s and %2$s prohlížeče Soul</string>
     <string name="notice_tos">Podmínky poskytování služeb</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">Zkuste to hned.</string>
     <string name="freq_asked">Často kladené otázky</string>
     <string name="blog_title">Blog</string>
-    <string name="language_name">Čeština</string>
 </resources>

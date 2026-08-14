@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Français</string>
     <string name="app_name">Soul</string>
     <string name="notice">En appuyant sur le bouton Début, vous acceptez les %1$s et la %2$s de Soul Browser.</string>
     <string name="notice_tos">Conditions d\'utilisation</string>
@@ -1040,5 +1041,4 @@
     <string name="area_info_16">Essayez-le maintenant.</string>
     <string name="freq_asked">Questions fréquemment posées</string>
     <string name="blog_title">Blog</string>
-    <string name="language_name">Français</string>
 </resources>
