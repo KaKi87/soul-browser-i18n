@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Bahasa Indonesia</string>
     <string name="app_name">Soul</string>
     <string name="notice">Dengan menekan tombol Mulai, Anda menyetujui Soul Browser\n%1$s dan %2$s.</string>
     <string name="notice_tos">Ketentuan Layanan</string>

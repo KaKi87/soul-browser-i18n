@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">فارسی</string>
     <string name="app_name">روح</string>
     <string name="notice">با کلیک کردن روی دکمه شروع، با Soul Browser\n%1$s و %2$s موافقت می‌کنید.</string>
     <string name="notice_tos">شرایط استفاده</string>

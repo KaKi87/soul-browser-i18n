@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">ᱥᱟᱱᱛᱟᱲᱤ</string>
     <string name="app_name">Soul</string>
     <string name="notice">ᱮᱛᱦᱚᱵ ᱵᱩᱛᱟᱹᱢ ᱚᱛᱟ ᱞᱮᱠᱷᱟᱱ, ᱟᱢ ᱫᱚ Soul ᱵᱽᱨᱟᱣᱡᱚᱨ\n%1$s ᱟᱨ %2$s ᱥᱟᱞᱟᱜ ᱮᱢ ᱦᱮᱸᱥᱤᱨᱤᱭᱟᱹᱜᱼᱟ ᱾</string>
     <string name="notice_tos">ᱠᱟᱹᱢᱤ ᱨᱮᱱᱟᱜ ᱥᱚᱨᱛᱚ</string>

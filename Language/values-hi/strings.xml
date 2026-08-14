@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">हिन्दी</string>
     <string name="app_name">Soul</string>
     <string name="notice">प्रारंभ बटन दबाकर, आप आत्मा ब्राउज़र\n%1$s और %2$s से सहमत होते हैं।</string>
     <string name="notice_tos">सेवा की शर्तें</string>

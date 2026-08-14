@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Polski</string>
     <string name="app_name">Soul</string>
     <string name="notice">Naciskając przycisk Początek, akceptujesz Przeglądarkę Dusz\n%1$s i %2$s.</string>
     <string name="notice_tos">Warunki korzystania z usługi</string>

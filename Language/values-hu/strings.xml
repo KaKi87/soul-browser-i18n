@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Magyar</string>
     <string name="app_name">Soul</string>
     <string name="notice">A Start gomb megnyomásával elfogadod a Soul Böngésző\n%1$s és %2$s.</string>
     <string name="notice_tos">Felhasználási feltételek</string>

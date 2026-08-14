@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Türkçe</string>
     <string name="app_name">Soul</string>
     <string name="notice">Başlat düğmesine basarak, Soul Browser\'ın\n%1$snı ve %2$sni kabul etmiş olursunuz.</string>
     <string name="notice_tos">Hizmet Şartları</string>

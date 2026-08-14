@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Русский</string>
     <string name="app_name">Soul</string>
     <string name="notice">Нажав кнопку «Начать работу», вы соглашаетесь с %1$s и %2$s браузера Soul.</string>
     <string name="notice_tos">Условия использования</string>

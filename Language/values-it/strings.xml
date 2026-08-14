@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Italiano</string>
     <string name="app_name">Soul</string>
     <string name="notice">Premendo il pulsante \'Inizia\', accetti %1$s e %2$s di Soul Browser.</string>
     <string name="notice_tos">Termini di servizio</string>

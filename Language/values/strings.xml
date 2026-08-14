@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">English</string>
     <string name="app_name">Soul2 Browser</string>
     <string name="notice">"By pressing the Start button, you agree to the Soul Browser
 %1$s and %2$s."</string>

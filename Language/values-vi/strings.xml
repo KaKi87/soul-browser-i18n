@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">Tiếng Việt</string>
     <string name="app_name">Soul</string>
     <string name="notice">Bằng cách nhấn vào nút Bắt đầu, bạn đồng ý với Soul Browser %1$s và %2$s.</string>
     <string name="notice_tos">Điều khoản dịch vụ</string>

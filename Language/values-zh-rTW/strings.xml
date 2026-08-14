@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">繁體中文</string>
     <string name="app_name">Soul</string>
     <string name="notice">點選開始按鈕即表示您同意 Soul Browser %1$s和%2$s</string>
     <string name="notice_tos">使用條款</string>

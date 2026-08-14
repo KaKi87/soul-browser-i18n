@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <string name="language_name">العربية</string>
     <string name="app_name">Soul</string>
     <string name="notice">بالضغط على زر البدء، فإنك توافق على %1$s و %2$s الخاصة بمتصفح سول.</string>
     <string name="notice_tos">شروط الخدمة</string>
