@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -13,6 +14,7 @@ BEGIN_MARK = "<!-- BEGIN I18N -->"
 END_MARK = "<!-- END I18N -->"
 BAR_WIDTH = 20
 LANGUAGE_NAME_KEY = "language_name"
+BADGE_FILE = "i18n-badge.json"
 
 RESOURCE_TAGS = {"string", "plurals", "string-array"}
 
@@ -105,6 +107,28 @@ def render_table(base_total: int, rows: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def badge_color(ratio: float) -> str:
+    if ratio >= 0.99:
+        return "brightgreen"
+    if ratio >= 0.95:
+        return "green"
+    if ratio >= 0.80:
+        return "yellow"
+    return "red"
+
+
+def render_badge(rows: list[dict]) -> str:
+    locales = [row for row in rows if not row["is_base"]]
+    average = sum(row["ratio"] for row in locales) / len(locales) if locales else 1.0
+    payload = {
+        "schemaVersion": 1,
+        "label": "i18n",
+        "message": f"{len(locales)} locales · {average * 100:.1f}%",
+        "color": badge_color(average),
+    }
+    return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+
+
 def replace_marked_section(readme: str, inner: str) -> str:
     block = f"{BEGIN_MARK}\n\n{inner}\n\n{END_MARK}"
     pattern = re.compile(
@@ -124,17 +148,16 @@ def replace_marked_section(readme: str, inner: str) -> str:
     return f"{stripped}{separator}{block}\n"
 
 
-def update_readme(readme_path: Path, table: str, check: bool) -> int:
-    original = readme_path.read_text(encoding="utf-8") if readme_path.is_file() else ""
-    updated = replace_marked_section(original, table)
-    if updated == original:
-        print(f"{readme_path} is already up to date.")
+def write_if_changed(path: Path, content: str, check: bool) -> int:
+    original = path.read_text(encoding="utf-8") if path.is_file() else None
+    if original == content:
+        print(f"{path} is already up to date.")
         return 0
     if check:
-        print(f"{readme_path} is out of date. Run python3 scripts/update_i18n_table.py")
+        print(f"{path} is out of date. Run python3 scripts/update_i18n_table.py")
         return 1
-    readme_path.write_text(updated, encoding="utf-8")
-    print(f"Updated {readme_path}")
+    path.write_text(content, encoding="utf-8")
+    print(f"Updated {path}")
     return 0
 
 
@@ -149,14 +172,21 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="Exit with status 1 if README.md would change",
+        help="Exit with status 1 if generated files would change",
     )
     args = parser.parse_args(argv)
 
     root: Path = args.root
     base_total, rows = collect_stats(root / "Language")
-    table = render_table(base_total, rows)
-    return update_readme(root / "README.md", table, check=args.check)
+    readme_path = root / "README.md"
+    original_readme = readme_path.read_text(encoding="utf-8") if readme_path.is_file() else ""
+    status = write_if_changed(
+        readme_path,
+        replace_marked_section(original_readme, render_table(base_total, rows)),
+        check=args.check,
+    )
+    status |= write_if_changed(root / BADGE_FILE, render_badge(rows), check=args.check)
+    return 1 if status else 0
 
 
 if __name__ == "__main__":
