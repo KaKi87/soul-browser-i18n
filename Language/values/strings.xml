@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <string name="app_name">Soul</string>
-    <string name="notice">By pressing the Start button, you agree to the Soul Browser\n%1$s and %2$s.</string>
+    <string name="app_name">Soul2 Browser</string>
+    <string name="notice">"By pressing the Start button, you agree to the Soul Browser
+%1$s and %2$s."</string>
     <string name="notice_tos">Terms of Service</string>
     <string name="notice_privacy">Privacy Policy</string>
     <string name="start">Start</string>
@@ -12,8 +13,8 @@
     <string name="license">Open source licenses</string>
     <string name="show_license">License</string>
     <string name="feedback">Send feedback</string>
-    <string name="item">&#160;item</string>
-    <string name="items">&#160;items</string>
+    <string name="item"> item</string>
+    <string name="items"> items</string>
     <string name="down_location">Download location</string>
     <string name="save_location">Storage location</string>
     <string name="file">File</string>
@@ -190,9 +191,9 @@
     <string name="password_reset_guide">Resetting will delete all data associated with the password.</string>
     <string name="login_lock">Login lock</string>
     <string name="login_lock_info">The lock screen will launch before logging in with the saved password.</string>
-    <string name="canceling">Canceling&#8230;</string>
-    <string name="checking">Checking&#8230;</string>
-    <string name="finishing">Finishing&#160;</string>
+    <string name="canceling">Canceling…</string>
+    <string name="checking">Checking…</string>
+    <string name="finishing">Finishing </string>
     <string name="show_detail">Show detail info</string>
     <string name="show_single">Single line title</string>
     <string name="show_recent">Mark recent file</string>
@@ -342,9 +343,6 @@
     <string name="size_height">Height</string>
     <string name="exit_with_save">Save and exit</string>
     <string name="exit_without_save">Exit without saving</string>
-    <string name="camera_fail">Camera failed to launch.</string>
-    <string name="barcode_guide">Please put the QR code or barcode inside the guide line.</string>
-    <string name="barcode_fail">No QR code or barcode found in the image.</string>
     <string name="allow">Allow</string>
     <string name="deny">Deny</string>
     <string name="location">Location</string>
@@ -357,7 +355,7 @@
     <string name="ask_rem_pms">Would you like to remove access to your account?</string>
     <string name="remove_pms">Remove permission</string>
     <string name="noti_pms">Notification permission</string>
-    <string name="noti_pms_guide_1">\'Notification permission\' is required for status notifications for the features below.</string>
+    <string name="noti_pms_guide_1">"'Notification permission' is required for status notifications for the features below."</string>
     <string name="ads_block">Ad blocker</string>
     <string name="ads_block_info">At least one filter must be active to block ads.</string>
     <string name="filtered_image">Filtered image (%d)</string>
@@ -370,8 +368,10 @@
     <string name="exit_delete">Select items to delete when app exits</string>
     <string name="exit_guide">When the app is closed, the selected item is deleted.</string>
     <string name="exit_del_noti">Notification when deleted</string>
-    <string name="exit_noti_1">&#60; Clear on exit &#62;\n%s deleted.</string>
-    <string name="exit_noti_2">&#60; Clear on exit &#62;\n%s deleted.</string>
+    <string name="exit_noti_1">"&lt; Clear on exit >
+%s deleted."</string>
+    <string name="exit_noti_2">"&lt; Clear on exit >
+%s deleted."</string>
     <string name="web_page">Web page</string>
     <string name="text_size">Text size</string>
     <string name="free_scale">Zoom in with two fingers</string>
@@ -404,12 +404,14 @@
     <string name="control_seek">Screen navigation</string>
     <string name="pip_mode">PIP mode</string>
     <string name="pip_info">PIP mode is supported starting from Android 8.</string>
-    <string name="wait_retry">Loading&#8230;\nPlease try again later.</string>
-    <string name="ads_retry">The advertisement is not ready yet.\nPlease try again later.</string>
+    <string name="wait_retry">"Loading…
+Please try again later."</string>
+    <string name="ads_retry">"The advertisement is not ready yet.
+Please try again later."</string>
     <string name="rate_app">Rate app</string>
     <string name="share_app">Recommend to a friend</string>
     <string name="extract">Extract</string>
-    <string name="loading">Loading&#8230;</string>
+    <string name="loading">Loading…</string>
     <string name="waiting">Please wait.</string>
     <string name="repeat_on">Repeat mode on</string>
     <string name="repeat_off">Repeat mode off</string>
@@ -473,7 +475,7 @@
     <string name="pop_allow_page">Allow popup on current page</string>
     <string name="image_list">Image list</string>
     <string name="image_cast_guide_1">Visit the site with the image.</string>
-    <string name="image_cast_guide_2">Select \'%1$s\' or \'%2$s\'.</string>
+    <string name="image_cast_guide_2">"Select '%1$s' or '%2$s'."</string>
     <string name="image_cast_guide_3">Select an image.</string>
     <string name="local_cast_guide_1">Select the TV Cast list icon.</string>
     <string name="local_cast_guide_2">Select an item.</string>
@@ -500,9 +502,11 @@
     <string name="history_6mon">6 months</string>
     <string name="history_1year">1 year</string>
     <string name="history_none">Unlimited</string>
-    <string name="history_info_zero">History will not be saved.\nAll previously saved records will be deleted.</string>
+    <string name="history_info_zero">"History will not be saved.
+All previously saved records will be deleted."</string>
     <string name="history_info_limit">Records older than the retention period are automatically deleted.</string>
-    <string name="history_info_none">All your history is saved.\nToo much data can slow browser performance.</string>
+    <string name="history_info_none">"All your history is saved.
+Too much data can slow browser performance."</string>
     <string name="list">List</string>
     <string name="touch_lock_info">Lock screen for unlocking touch during video playback.</string>
     <string name="touch_locked">Touch is locked.</string>
@@ -559,14 +563,15 @@
     <string name="report_error">Report error</string>
     <string name="report_site">Report site</string>
     <string name="report_down">Please provide the address of the site where the video can not be downloaded.</string>
-    <string name="insta_down">To download Instagram videos smoothly,\nyou need to log in to Instagram.</string>
+    <string name="insta_down">"To download Instagram videos smoothly,
+you need to log in to Instagram."</string>
     <string name="youtube_unmute">Unmute YouTube</string>
     <string name="youtube_speed">Save playback speed</string>
     <string name="youtube_auto">YouTube autoplay</string>
     <string name="back_play">Background playback</string>
-    <string name="back_play_info">Due to YouTube policy, YouTube background playback is not supported.</string>
+    <string name="back_play_info">Background playback keeps media playing when the app is in the background.</string>
     <string name="normal_rate">Normal</string>
-    <string name="not_show">Don\'t show</string>
+    <string name="not_show">"Don't show"</string>
     <string name="show_left">Left</string>
     <string name="show_center">Center</string>
     <string name="show_right">Right</string>
@@ -582,7 +587,7 @@
     <string name="font_guide_2">Most fonts usually only support alphabets and numbers.</string>
     <string name="font_guide_3">Check the preview to see if the selected font supports the specific language.</string>
     <string name="tv_cast">TV Cast</string>
-    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="media_route_menu_title">Play on…</string>
     <string name="introducing_cast">Touch to cast media to your TV</string>
     <string name="cast_info_6">YouTube is not supported.</string>
     <string name="cast_info_7">Some formats are not supported.</string>
@@ -593,7 +598,7 @@
     <string name="icon_color">Button color</string>
     <string name="icon_pos">Button location</string>
     <string name="storage_guide_1">Updated for Android 10.</string>
-    <string name="storage_guide_2">As of Android 10, the \'Scoped Storage\' policy applies.</string>
+    <string name="storage_guide_2">"As of Android 10, the 'Scoped Storage' policy applies."</string>
     <string name="storage_guide_3">Save list and save path have been initialized.</string>
     <string name="storage_guide_4">Files are retained.</string>
     <string name="not_selected">Not selected</string>
@@ -611,8 +616,8 @@
     <string name="add_book">Add to bookmark</string>
     <string name="add_quick">Add to Soul homepage</string>
     <string name="add_home_1">Add to home screen</string>
-    <string name="add_home_2">Add to phone\'s home screen</string>
-    <string name="phone_home">Phone\'s home screen</string>
+    <string name="add_home_2">"Add to phone's home screen"</string>
+    <string name="phone_home">"Phone's home screen"</string>
     <string name="set_homepage">Set as homepage</string>
     <string name="set_startpage">Set as start page</string>
     <string name="soul_home">Soul homepage</string>
@@ -662,7 +667,7 @@
     <string name="user_script_info">Untrusted user scripts can interfere with the normal operation of the browser or cause serious security problems.</string>
     <string name="install">Installation</string>
     <string name="install_confirm">Do you want to install?</string>
-    <string name="already_install">It\'s already installed.</string>
+    <string name="already_install">"It's already installed."</string>
     <string name="install_fail">Installation failed</string>
     <string name="check_format">Please check if there is a problem with the format.</string>
     <string name="icon_edit_guide">2. You can change it by clicking the icon.</string>
@@ -735,7 +740,7 @@
     <string name="backup_import">Import</string>
     <string name="backup_export">Export</string>
     <string name="backup_target">Please select a target.</string>
-    <string name="saving">Saving&#8230;</string>
+    <string name="saving">Saving…</string>
     <string name="save_empty">There is nothing to save.</string>
     <string name="not_changed">No changes have been made.</string>
     <string name="app_restart">You need to restart the app.</string>
@@ -762,7 +767,8 @@
     <string name="img_brt_info">Applies only when the webpage is in dark mode.</string>
     <string name="search_suggest">Search suggestions</string>
     <string name="at_bottom">At the bottom</string>
-    <string name="clean_data_info">Accumulation of stale data can slow down your browser.\nIt is a good idea to clean up your data periodically.</string>
+    <string name="clean_data_info">"Accumulation of stale data can slow down your browser.
+It is a good idea to clean up your data periodically."</string>
     <string name="txt_viewer">Text viewer</string>
     <string name="purchase">Purchase</string>
     <string name="donation">Donation</string>
@@ -775,9 +781,9 @@
     <string name="remove_ads_info_3">In-app ads and website ads are different.</string>
     <string name="remove_ads_info_4">Website ads removal feature is free.</string>
     <string name="ads_guide_1">In-app ads are ads displayed by apps.</string>
-    <string name="ads_guide_2">Soul Browser\'s in-app ads don\'t bother you.</string>
+    <string name="ads_guide_2">"Soul Browser's in-app ads don't bother you."</string>
     <string name="ads_guide_3">It only appears in very limited locations.</string>
-    <string name="ads_guide_4">Soul Browser\'s goal is to provide convenience and comfort to its users.</string>
+    <string name="ads_guide_4">"Soul Browser's goal is to provide convenience and comfort to its users."</string>
     <string name="ads_guide_5">Website ads are advertisements displayed by website administrators.</string>
     <string name="ads_guide_6">It has nothing to do with Soul Browser.</string>
     <string name="ads_guide_7">Soul Browser does not display in-app ads on websites.</string>
@@ -789,7 +795,8 @@
     <string name="donate_info_2">Soul Browser is maintained by your donation.</string>
     <string name="paid">Purchased</string>
     <string name="already_paid">It has already been purchased.</string>
-    <string name="pay_fail">An error has occurred.\nPlease try again later.</string>
+    <string name="pay_fail">"An error has occurred.
+Please try again later."</string>
     <string name="prevent_pay">Prevent accidental payments</string>
     <string name="input_answer">Please enter answer.</string>
     <string name="correct_answer">The correct answer is %d.</string>
@@ -808,7 +815,8 @@
     <string name="block_in_secret">Block only in incognito mode</string>
     <string name="block_back">Block only in the background</string>
     <string name="only_https">Connect with HTTPS</string>
-    <string name="only_https_info">By default it connects with HTTPS.\nSites that do not support HTTPS may not be able to connect.</string>
+    <string name="only_https_info">"By default it connects with HTTPS.
+Sites that do not support HTTPS may not be able to connect."</string>
     <string name="http_warning">It cannot be run on HTTP sites (unsecured sites).</string>
     <string name="page_home_info">When you tap the home icon</string>
     <string name="page_start_info">When starting the app</string>
@@ -859,11 +867,11 @@
     <string name="original_size">Original size</string>
     <string name="reduced_size">Reduced size (Recommended)</string>
     <string name="finger_print">Fingerprint</string>
-    <string name="finger_unavailable">The user can\'t authenticate because the hardware is unavailable. Try again later.</string>
-    <string name="finger_register">The user can\'t authenticate because no fingerprint is enrolled.</string>
-    <string name="finger_no_hardware">The user can\'t authenticate because there is no suitable hardware.</string>
-    <string name="finger_security">The user can\'t authenticate because a security vulnerability has been discovered with one or more hardware sensors.</string>
-    <string name="finger_unsupported">The user can\'t authenticate because the specified options are incompatible with the current Android version.</string>
+    <string name="finger_unavailable">"The user can't authenticate because the hardware is unavailable. Try again later."</string>
+    <string name="finger_register">"The user can't authenticate because no fingerprint is enrolled."</string>
+    <string name="finger_no_hardware">"The user can't authenticate because there is no suitable hardware."</string>
+    <string name="finger_security">"The user can't authenticate because a security vulnerability has been discovered with one or more hardware sensors."</string>
+    <string name="finger_unsupported">"The user can't authenticate because the specified options are incompatible with the current Android version."</string>
     <string name="finger_unknown">Unable to determine whether the user can authenticate.</string>
     <string name="auto_comp">Auto complete</string>
     <string name="check_element">Element inspection</string>
@@ -885,11 +893,11 @@
     <string name="default_browser">Set as default browser</string>
     <string name="news_start">Check out news from around the world in one place.</string>
     <string name="news_title">News</string>
-    <string name="news_loading">News loading&#8230;</string>
+    <string name="news_loading">News loading…</string>
     <string name="news_show">Show news</string>
     <string name="news_info_1">News source</string>
     <string name="news_info_2">Google News</string>
-    <string name="news_locale">Language &#38; region</string>
+    <string name="news_locale">Language &amp; region</string>
     <string name="news_trans">News title translation</string>
     <string name="news_topic_headline">Headline</string>
     <string name="news_topic_world">World</string>
@@ -907,7 +915,7 @@
     <string name="vpn_server">Server</string>
     <string name="visit_site">Visit the site</string>
     <string name="vpn_ip_guide_1">Search results by domain.</string>
-    <string name="vpn_ip_guide_2">If it\'s not what you want, you can edit it yourself.</string>
+    <string name="vpn_ip_guide_2">"If it's not what you want, you can edit it yourself."</string>
     <string name="out_of_memory">Insufficient memory.</string>
     <string name="auto_detect">Auto detection</string>
     <string name="automatic">Automatic</string>
@@ -966,7 +974,7 @@
     <string name="block_amp">Disable Google AMP</string>
     <string name="block_amp_info">Disable Google AMP in Google search results.</string>
     <string name="pre_raster">Web page preload</string>
-    <string name="filter_guide_1">If you have a site that doesn\'t block ads, add an appropriate filter.</string>
+    <string name="filter_guide_1">"If you have a site that doesn't block ads, add an appropriate filter."</string>
     <string name="filter_guide_2">Adding filters increases memory usage.</string>
     <string name="filter_guide_3">We recommend that you only add filters that are appropriate for you.</string>
     <string name="filter_link_1">Filter copyright remains with the filter creator or filter supplier.</string>
@@ -1020,10 +1028,10 @@
     <string name="area_filter_guide_2">This is because the properties of the blocked area have changed.</string>
     <string name="area_filter_guide_3">Advertising areas typically change properties from time to time.</string>
     <string name="area_filter_guide_4">You can fix the problem by editing the filter.</string>
-    <string name="area_recom_1">Try using the \'%s\' feature.</string>
-    <string name="area_recom_2">The \'%s\' feature allows you to directly select what you want to block.</string>
+    <string name="area_recom_1">"Try using the '%s' feature."</string>
+    <string name="area_recom_2">"The '%s' feature allows you to directly select what you want to block."</string>
     <string name="area_info_1">There are over 1.5 billion websites on the world wide web today.</string>
-    <string name="area_info_2">That\'s why the filter contains information about many sites.</string>
+    <string name="area_info_2">"That's why the filter contains information about many sites."</string>
     <string name="area_info_3">However, users typically visit only a few sites.</string>
     <string name="area_info_4">Only a small portion of the information contained in the filter is what the user needs.</string>
     <string name="area_info_5">And it is very difficult to know which filter contains the information you need.</string>
@@ -1032,12 +1040,29 @@
     <string name="area_info_8">To solve this problem, you need a custom filter that works for you.</string>
     <string name="area_info_9">However, creating a filter requires knowledge about filters.</string>
     <string name="area_info_10">For this reason, many users give up on creating custom filters.</string>
-    <string name="area_info_11">The \'%s\' function does not require any knowledge of filters.</string>
+    <string name="area_info_11">"The '%s' function does not require any knowledge of filters."</string>
     <string name="area_info_12">Anyone can easily create custom filters.</string>
     <string name="area_info_13">Long press on the object you want to block and a menu will appear.</string>
-    <string name="area_info_14">When you run and apply the \'%s\' function, a filter will be created automatically.</string>
-    <string name="area_info_15">It\'s very easy.</string>
+    <string name="area_info_14">"When you run and apply the '%s' function, a filter will be created automatically."</string>
+    <string name="area_info_15">"It's very easy."</string>
     <string name="area_info_16">Try it right now.</string>
     <string name="freq_asked">Frequently asked questions</string>
     <string name="blog_title">Blog</string>
+    <string name="bug_tracker">Bug tracker</string>
+    <string name="dev_tools">DevTools</string>
+    <string name="folder_color">Default tab group color</string>
+    <string name="last_active">(Last active)</string>
+    <string name="link_image_tab">Image link default tab</string>
+    <string name="preview_url_bar">Preview URL bar</string>
+    <string name="preview_url_bottom">Bottom</string>
+    <string name="preview_url_top">Top</string>
+    <string name="reload_saved_tabs">Reload saved tabs</string>
+    <string name="reload_saved_tabs_info">Opening a saved tab after launch loads the page fresh instead of restoring its last state.</string>
+    <string name="set_homepage_confirm">Set as homepage?</string>
+    <string name="soul2_info_text"><![CDATA[Soul2 Browser is a decompiled &amp; modded source for <a href="https://play.google.com/store/apps/details?id=com.mycompany.app.soulbrowser">Soul Browser by SoulSoft</a>, which hasn&#x27;t been updated since v1.4.85 on December 10th, 2025 (since exactly 7 months at &quot;fork&quot; time).<br/><br/>It aims to fix long-standing bugs, add long-awaited features, i.e. make it comfortably usable past its creator&#x27;s abandonment. Although the <a href="https://git.kaki87.net/VibedByKaKi/soul-browser/src/commit/550ddb041351ebcf37bfc5fb1d3143aaf178b310">original decompiled code</a> and <a href="https://git.kaki87.net/VibedByKaKi/soul-browser/commits/branch/main">the patches</a> are both source-available and welcome contributions, they cannot be open source for the simple reason that the original Soul Browser is proprietary, therefore any third-party redistribution (including this one) is illegal, despite the circumstances. Out of respect for the original developer, all changes to the project will remain minimal and faithful to the original works in terms of branding, architecture, interface, experience and features.<br/><br/>The development will mainly address the bug reports &amp; feature requests from <a href="https://github.com/SoulBrowser/SoulBrowser/issues">the official bug tracker</a> and will be advertised there, requests for Soul2 in particular will also be welcomed there, with the hope that Soul&#x27;s creator will eventually notice the continued interest shown by the community for their app, and decide to resume maintenance and backport the added improvements, at which point this modding project will have achieved its goal and be terminated.<br/><br/>Think of this as <a href="https://en.wikipedia.org/wiki/Fan_fiction">fanfic</a>.<br/><br/>The app ID is <tt>net.kaki87.soul2</tt> for stable builds and <tt>net.kaki87.soul2.testing</tt> for testing builds, both support configuration import/export in <i>Settings</i> -&gt; <i>Backup</i> between each other and the official app.]]></string>
+    <string name="source_code">Source code</string>
+    <string name="tab_homepage">Homepage</string>
+    <string name="tab_homepage_set">Homepage set</string>
+    <string name="web_page_dark_info">When set to Light, global web page display cannot be overriden for specific sites.</string>
+    <string name="with_buttons">Inline with buttons</string>
 </resources>
