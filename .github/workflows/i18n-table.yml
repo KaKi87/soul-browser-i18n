@@ -1,0 +1,47 @@
+name: Translation status
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "Language/**"
+      - "scripts/update_i18n_table.py"
+      - ".github/workflows/i18n-table.yml"
+  pull_request:
+    paths:
+      - "Language/**"
+      - "scripts/update_i18n_table.py"
+      - ".github/workflows/i18n-table.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: i18n-table-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate-table:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+
+      - name: Generate translation completion table
+        run: python3 scripts/update_i18n_table.py
+
+      - name: Commit README if the table changed
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Translation table is already up to date."
+            exit 0
+          fi
+          git commit -m "Update translation completion table"
+          git push
