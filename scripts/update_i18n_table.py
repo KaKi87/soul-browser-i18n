@@ -12,68 +12,30 @@ from pathlib import Path
 BEGIN_MARK = "<!-- BEGIN I18N -->"
 END_MARK = "<!-- END I18N -->"
 BAR_WIDTH = 20
-
-# Android resource folder -> display name. Names follow Language/README.txt,
-# with a few demonyms corrected for the public table.
-LOCALE_NAMES = {
-    "values": "English",
-    "values-ar": "Arabic",
-    "values-cs": "Czech",
-    "values-de": "German",
-    "values-es": "Spanish",
-    "values-fa": "Persian",
-    "values-fr": "French",
-    "values-hi": "Hindi",
-    "values-hu": "Hungarian",
-    "values-in": "Indonesian",
-    "values-it": "Italian",
-    "values-ja": "Japanese",
-    "values-ko": "Korean",
-    "values-pl": "Polish",
-    "values-pt": "Portuguese",
-    "values-pt-rBR": "Brazilian Portuguese",
-    "values-ro": "Romanian",
-    "values-ru": "Russian",
-    "values-sat": "Santali",
-    "values-th": "Thai",
-    "values-tr": "Turkish",
-    "values-uk": "Ukrainian",
-    "values-vi": "Vietnamese",
-    "values-zh-rCN": "Chinese Simplified",
-    "values-zh-rTW": "Chinese Traditional",
-}
+LANGUAGE_NAME_KEY = "language_name"
 
 RESOURCE_TAGS = {"string", "plurals", "string-array"}
 
 
-def parse_keys(strings_xml: Path) -> set[str]:
-    """Return translatable resource names defined in an Android strings.xml."""
+def parse_resources(strings_xml: Path) -> tuple[set[str], str | None]:
+    """Return translatable resource names and the locale's display label."""
     root = ET.parse(strings_xml).getroot()
     keys: set[str] = set()
+    label: str | None = None
     for child in root:
         tag = child.tag.split("}")[-1]
         if tag not in RESOURCE_TAGS:
             continue
+        name = child.get("name")
+        if not name:
+            continue
+        if name == LANGUAGE_NAME_KEY:
+            text = "".join(child.itertext()).strip()
+            label = text or None
         if child.get("translatable") == "false":
             continue
-        name = child.get("name")
-        if name:
-            keys.add(name)
-    return keys
-
-
-def load_locale_names(readme_txt: Path) -> dict[str, str]:
-    """Overlay names from Language/README.txt onto the built-in map."""
-    names = dict(LOCALE_NAMES)
-    if not readme_txt.is_file():
-        return names
-    for line in readme_txt.read_text(encoding="utf-8").splitlines():
-        match = re.match(r"^(values\S*)\s+(\S.*)$", line.strip())
-        if not match:
-            continue
-        folder, label = match.group(1), match.group(2).strip()
-        names.setdefault(folder, label)
-    return names
+        keys.add(name)
+    return keys, label
 
 
 def progress_bar(ratio: float, width: int = BAR_WIDTH) -> str:
@@ -89,8 +51,7 @@ def collect_stats(language_dir: Path) -> tuple[int, list[dict]]:
     if not base_xml.is_file():
         raise SystemExit(f"English base not found: {base_xml}")
 
-    names = load_locale_names(language_dir / "README.txt")
-    base_keys = parse_keys(base_xml)
+    base_keys, _ = parse_resources(base_xml)
     base_total = len(base_keys)
 
     rows: list[dict] = []
@@ -98,14 +59,14 @@ def collect_stats(language_dir: Path) -> tuple[int, list[dict]]:
         xml_path = folder / "strings.xml"
         if not xml_path.is_file():
             continue
-        keys = parse_keys(xml_path)
+        keys, label = parse_resources(xml_path)
         translated = len(base_keys & keys)
         missing = base_total - translated
         ratio = translated / base_total if base_total else 1.0
         rows.append(
             {
                 "folder": folder.name,
-                "name": names.get(folder.name, folder.name),
+                "name": label or folder.name,
                 "translated": translated,
                 "missing": missing,
                 "ratio": ratio,
@@ -129,6 +90,7 @@ def render_table(base_total: int, rows: list[dict]) -> str:
     for row in rows:
         pct = 100.0 * row["ratio"]
         label = f"{row['name']} (base)" if row["is_base"] else row["name"]
+        label = label.replace("|", "\\|")
         bar = progress_bar(row["ratio"])
         lines.append(
             f"| {label} | `{row['folder']}` | {row['translated']} | {row['missing']} "
