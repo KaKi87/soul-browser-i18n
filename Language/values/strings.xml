@@ -1072,4 +1072,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="warp_info">Routes Soul network traffic through an unofficial Cloudflare WARP HTTP proxy (WebView, downloads, and in-app HTTP). BitTorrent is not included. Other local VPNs (for example AdGuard) can block WARP; whitelist Soul from them if connection fails. Not affiliated with Cloudflare; the connection API may change.</string>
     <string name="warp_ip">IP address</string>
     <string name="warp_need_proxy_feature">WebView PROXY_OVERRIDE is not available on this device</string>
+    <string name="webview_ver">WebView version</string>
 </resources>
