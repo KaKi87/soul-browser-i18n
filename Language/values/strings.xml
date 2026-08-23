@@ -1073,4 +1073,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="warp_ip">IP address</string>
     <string name="warp_need_proxy_feature">WebView PROXY_OVERRIDE is not available on this device</string>
     <string name="webview_ver">WebView version</string>
+    <string name="website_data">Website data</string>
 </resources>
