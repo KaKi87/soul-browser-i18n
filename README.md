@@ -10,6 +10,7 @@ Completion of each language relative to the English base (`Language/values`, 106
 | --- | --- | ---: | ---: | --- |
 | English (base) | `values` | 1063 | 0 | `████████████████████` 100.0% |
 | العربية | `values-ar` | 1037 | 26 | `███████████████████░` 97.6% |
+| বাংলা | `values-bn` | 1063 | 0 | `████████████████████` 100.0% |
 | Čeština | `values-cs` | 1037 | 26 | `███████████████████░` 97.6% |
 | Deutsch | `values-de` | 1037 | 26 | `███████████████████░` 97.6% |
 | Español | `values-es` | 1037 | 26 | `███████████████████░` 97.6% |
