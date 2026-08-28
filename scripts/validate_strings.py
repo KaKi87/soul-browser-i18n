@@ -22,8 +22,8 @@ def validate_body(body: str) -> str | None:
         return None
     if re.search(r"(?<!\\)'", body):
         return (
-            "unescaped apostrophe "
-            '(wrap the value in "..." like values/strings.xml, or use \\')'
+            'unescaped apostrophe '
+            '(wrap the value in "..." like values/strings.xml, or use backslash-escape)'
         )
     return None
 
