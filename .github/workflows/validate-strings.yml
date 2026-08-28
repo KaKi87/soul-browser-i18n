@@ -1,0 +1,25 @@
+name: Validate strings
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "Language/**"
+      - "scripts/validate_strings.py"
+      - ".github/workflows/validate-strings.yml"
+  pull_request:
+    paths:
+      - "Language/**"
+      - "scripts/validate_strings.py"
+      - ".github/workflows/validate-strings.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate Android string resources
+        run: python3 scripts/validate_strings.py

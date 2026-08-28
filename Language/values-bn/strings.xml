@@ -357,7 +357,7 @@
     <string name="ask_rem_pms">আপনি কি আপনার অ্যাকাউন্টের অ্যাক্সেস সরাতে চান?</string>
     <string name="remove_pms">অনুমতি সরান</string>
     <string name="noti_pms">নোটিফিকেশন অনুমতি</string>
-    <string name="noti_pms_guide_1">'নোটিফিকেশন অনুমতি' নিচের বৈশিষ্ট্যগুলির জন্য স্ট্যাটাস নোটিফিকেশনের প্রয়োজন।</string>
+    <string name="noti_pms_guide_1">"'নোটিফিকেশন অনুমতি' নিচের বৈশিষ্ট্যগুলির জন্য স্ট্যাটাস নোটিফিকেশনের প্রয়োজন।"</string>
     <string name="ads_block">বিজ্ঞাপন ব্লকার</string>
     <string name="ads_block_info">বিজ্ঞাপন ব্লক করতে অন্তত একটি ফিল্টার সক্রিয় থাকতে হবে।</string>
     <string name="filtered_image">ফিল্টার করা ছবি (%d)</string>
@@ -473,7 +473,7 @@
     <string name="pop_allow_page">বর্তমান পৃষ্ঠায় পপআপ অনুমোদন করুন</string>
     <string name="image_list">ছবির তালিকা</string>
     <string name="image_cast_guide_1">ছবি সহ সাইটে যান।</string>
-    <string name="image_cast_guide_2">'%1$s' বা '%2$s' নির্বাচন করুন।</string>
+    <string name="image_cast_guide_2">"'%1$s' বা '%2$s' নির্বাচন করুন।"</string>
     <string name="image_cast_guide_3">একটি ছবি নির্বাচন করুন।</string>
     <string name="local_cast_guide_1">TV কাস্ট তালিকা আইকন নির্বাচন করুন।</string>
     <string name="local_cast_guide_2">একটি আইটেম নির্বাচন করুন।</string>
@@ -593,7 +593,7 @@
     <string name="icon_color">বোতামের রঙ</string>
     <string name="icon_pos">বোতামের অবস্থান</string>
     <string name="storage_guide_1">Android 10 এর জন্য আপডেট হয়েছে।</string>
-    <string name="storage_guide_2">Android 10 থেকে 'Scoped Storage' নীতি প্রযোজ্য।</string>
+    <string name="storage_guide_2">"Android 10 থেকে 'Scoped Storage' নীতি প্রযোজ্য।"</string>
     <string name="storage_guide_3">সেভ তালিকা এবং সেভ পথ প্রাথমিককরণ করা হয়েছে।</string>
     <string name="storage_guide_4">ফাইলগুলি সংরক্ষিত থাকে।</string>
     <string name="not_selected">নির্বাচিত নয়</string>
@@ -1020,8 +1020,8 @@
     <string name="area_filter_guide_2">এর কারণ হলো ব্লক করা অঞ্চলের বৈশিষ্ট্য পরিবর্তিত হয়েছে।</string>
     <string name="area_filter_guide_3">বিজ্ঞাপন ক্ষেত্রগুলি সাধারণত সময়ে সময়ে বৈশিষ্ট্য পরিবর্তন করে।</string>
     <string name="area_filter_guide_4">আপনি ফিল্টার সম্পাদনা করে সমস্যার সমাধান করতে পারেন।</string>
-    <string name="area_recom_1">'%s' ফিচার ব্যবহার করার চেষ্টা করুন।</string>
-    <string name="area_recom_2">'%s' ফিচার আপনাকে সরাসরি ব্লক করতে যা চান তা নির্বাচন করতে দেয়।</string>
+    <string name="area_recom_1">"'%s' ফিচার ব্যবহার করার চেষ্টা করুন।"</string>
+    <string name="area_recom_2">"'%s' ফিচার আপনাকে সরাসরি ব্লক করতে যা চান তা নির্বাচন করতে দেয়।"</string>
     <string name="area_info_1">আজকের দিনে ওয়েব-এ ১.৫ বিলিয়নের বেশি ওয়েবসাইট রয়েছে।</string>
     <string name="area_info_2">এজন্য ফিল্টারে অনেক সাইটের তথ্য রয়েছে।</string>
     <string name="area_info_3">তবে, ব্যবহারকারীরা সাধারণত কয়েকটি সাইটই ভিজিট করেন।</string>
@@ -1032,10 +1032,10 @@
     <string name="area_info_8">সমস্যা সমাধানের জন্য, আপনাকে একটি কাস্টম ফিল্টার প্রয়োজন যা আপনার জন্য কাজ করে।</string>
     <string name="area_info_9">তবে, ফিল্টার তৈরি করতে ফিল্টার সম্পর্কে জ্ঞান প্রয়োজন।</string>
     <string name="area_info_10">এই কারণে, অনেক ব্যবহারকারী কাস্টম ফিল্টার তৈরি করা থেকে বিরত থাকেন।</string>
-    <string name="area_info_11">'%s' ফাংশন ব্যবহার করতে ফিল্টারের কোনো জ্ঞান প্রয়োজন নেই।</string>
+    <string name="area_info_11">"'%s' ফাংশন ব্যবহার করতে ফিল্টারের কোনো জ্ঞান প্রয়োজন নেই।"</string>
     <string name="area_info_12">যে কেউ সহজেই কাস্টম ফিল্টার তৈরি করতে পারে।</string>
     <string name="area_info_13">যে অবজেক্টটি আপনি ব্লক করতে চান তার উপর দীর্ঘ প্রেস করুন এবং একটি মেনু প্রদর্শিত হবে।</string>
-    <string name="area_info_14">আপনি যখন '%s' ফাংশন চালান এবং প্রয়োগ করেন, একটি ফিল্টার স্বয়ংক্রিয়ভাবে তৈরি হবে।</string>
+    <string name="area_info_14">"আপনি যখন '%s' ফাংশন চালান এবং প্রয়োগ করেন, একটি ফিল্টার স্বয়ংক্রিয়ভাবে তৈরি হবে।"</string>
     <string name="area_info_15">এটি খুবই সহজ।</string>
     <string name="area_info_16">এটি এখনই চেষ্টা করুন।</string>
     <string name="freq_asked">প্রায়শই জিজ্ঞাসিত প্রশ্ন</string>
