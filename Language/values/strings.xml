@@ -1075,4 +1075,8 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="webview_ver">WebView version</string>
     <string name="website_data">Website data</string>
     <string name="build_date">Build date</string>
+    <string name="pdf_controls_timeout">Controls timeout</string>
+    <string name="pdf_controls_timeout_default">3 seconds</string>
+    <string name="pdf_controls_timeout_disabled">Disabled</string>
+    <string name="pdf_preview_settings">PDF preview</string>
 </resources>
