@@ -1081,4 +1081,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="pdf_preview_settings">PDF preview</string>
     <string name="select_all">Select all</string>
     <string name="search_in_preview">Search in preview</string>
+    <string name="download_link">Download link</string>
 </resources>
