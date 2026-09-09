@@ -1082,4 +1082,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="select_all">Select all</string>
     <string name="search_in_preview">Search in preview</string>
     <string name="download_link">Download link</string>
+    <string name="new_url_current">New tab (current page)</string>
 </resources>
