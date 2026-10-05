@@ -1084,4 +1084,8 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="eruda_preload">Preload DevTools</string>
     <string name="eruda_preload_info">Initializes Eruda on every page in the background so DevTools opens with logs already captured. Uses more memory.</string>
     <string name="search_in_preview">Search in preview</string>
+    <string name="default_user_agent">Default user agent</string>
+    <string name="site_user_agent">Site user agent</string>
+    <string name="tab_user_agent">Tab user agent</string>
+    <string name="ua_version_hint">Use `%version` to automatically insert the webview version into the user agent</string>
 </resources>
