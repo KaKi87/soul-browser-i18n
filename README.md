@@ -15,7 +15,7 @@ Completion of each language relative to the English base (`Language/values`, 104
 | Deutsch | `values-de` | 1010 | 39 | `███████████████████░` 96.3% |
 | Español | `values-es` | 1010 | 39 | `███████████████████░` 96.3% |
 | فارسی | `values-fa` | 1010 | 39 | `███████████████████░` 96.3% |
-| Français | `values-fr` | 1010 | 39 | `███████████████████░` 96.3% |
+| Français | `values-fr` | 1049 | 0 | `████████████████████` 100.0% |
 | हिन्दी | `values-hi` | 1010 | 39 | `███████████████████░` 96.3% |
 | Magyar | `values-hu` | 1010 | 39 | `███████████████████░` 96.3% |
 | Bahasa Indonesia | `values-in` | 1010 | 39 | `███████████████████░` 96.3% |
