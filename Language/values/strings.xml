@@ -1060,4 +1060,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="site_user_agent">Site user agent</string>
     <string name="tab_user_agent">Tab user agent</string>
     <string name="ua_version_hint">Use `%version` to automatically insert the webview version into the user agent</string>
+    <string name="viewport_width">Viewport width</string>
 </resources>
