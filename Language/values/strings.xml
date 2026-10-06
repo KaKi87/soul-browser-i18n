@@ -1061,4 +1061,17 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="tab_user_agent">Tab user agent</string>
     <string name="ua_version_hint">Use `%version` to automatically insert the webview version into the user agent</string>
     <string name="viewport_width">Viewport width</string>
+    <string name="ui_text_size">UI text size</string>
+    <string name="ui_text_size_12">Menu, side-area, and quick-link icon captions (12)</string>
+    <string name="ui_text_size_13">Tab grid compact titles (13)</string>
+    <string name="ui_text_size_14">Bookmark dates, settings values, snackbars, tab URLs, home labels (14)</string>
+    <string name="ui_text_size_16">Address bar URL, bookmark titles, menus, settings titles, dialogs (16)</string>
+    <string name="ui_text_size_18">Settings headers, empty states, PIN digits, SSL titles (18)</string>
+    <string name="ui_text_size_20">Gesture preview labels and PIN actions (20)</string>
+    <string name="ui_text_size_24">Photo editor text input (24)</string>
+    <string name="ui_text_size_36">Emoji picker and large editor text (36)</string>
+    <string name="ui_text_size_40">Video brightness and volume overlays (40)</string>
+    <string name="ui_text_size_7">Photo editor effect chips (7)</string>
+    <string name="ui_text_size_8">Photo editor effect chips (8)</string>
+    <string name="ui_text_size_info">Address bar, lists, menus, and other chrome. Separate from webpage Text size.</string>
 </resources>
