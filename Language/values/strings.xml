@@ -378,8 +378,6 @@
     <string name="free_scale">Zoom in with two fingers</string>
     <string name="mobile_mode">Mobile</string>
     <string name="desk_mode">Desktop</string>
-    <string name="desk_one">Desktop (Current tab)</string>
-    <string name="desk_all">Desktop (All tabs)</string>
     <string name="block_link">Block link</string>
     <string name="blocked_link">Blocked Links</string>
     <string name="link_block_site">Block link site</string>
