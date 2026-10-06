@@ -378,8 +378,6 @@
     <string name="free_scale">İki parmağınızla yakınlaştırın</string>
     <string name="mobile_mode">Mobil</string>
     <string name="desk_mode">Masaüstü</string>
-    <string name="desk_one">Masaüstü (Geçerli sekme)</string>
-    <string name="desk_all">Masaüstü (Tüm sekmeler)</string>
     <string name="block_link">Bağlantıyı engelle</string>
     <string name="blocked_link">Engellenen Bağlantılar</string>
     <string name="link_block_site">Bağlantı sitesini engelle</string>

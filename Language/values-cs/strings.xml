@@ -378,8 +378,6 @@
     <string name="free_scale">Přibližovat dvěma prsty</string>
     <string name="mobile_mode">Mobilní</string>
     <string name="desk_mode">Počítač</string>
-    <string name="desk_one">Počítač (aktuální karta)</string>
-    <string name="desk_all">Počítač (všechny karty)</string>
     <string name="block_link">Blokovat odkaz</string>
     <string name="blocked_link">Blokovat odkazy</string>
     <string name="link_block_site">Blokovat odkaz stránek</string>

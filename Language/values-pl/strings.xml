@@ -378,8 +378,6 @@
     <string name="free_scale">Powiększ dwoma palcami</string>
     <string name="mobile_mode">Mobilny</string>
     <string name="desk_mode">Pulpit</string>
-    <string name="desk_one">Pulpit (Bieżąca karta)</string>
-    <string name="desk_all">Pulpit (Wszystkie karty)</string>
     <string name="block_link">Zablokuj link</string>
     <string name="blocked_link">Zablokowane linki</string>
     <string name="link_block_site">Zablokuj witrynę z linkiem</string>

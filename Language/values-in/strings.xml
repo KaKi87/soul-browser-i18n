@@ -378,8 +378,6 @@
     <string name="free_scale">Perbesar dengan dua jari</string>
     <string name="mobile_mode">Mobile</string>
     <string name="desk_mode">Desktop</string>
-    <string name="desk_one">Desktop (Tab saat ini)</string>
-    <string name="desk_all">Desktop (Semua tab)</string>
     <string name="block_link">Blokir tautan</string>
     <string name="blocked_link">Tautan yang Diblokir</string>
     <string name="link_block_site">Blokir situs tautan</string>

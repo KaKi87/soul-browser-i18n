@@ -377,8 +377,6 @@
     <string name="free_scale">দুই আঙ্গুল দিয়ে জুম করুন</string>
     <string name="mobile_mode">মোবাইল</string>
     <string name="desk_mode">ডেস্কটপ</string>
-    <string name="desk_one">ডেস্কটপ (বর্তমান ট্যাব)</string>
-    <string name="desk_all">ডেস্কটপ (সব ট্যাব)</string>
     <string name="block_link">লিঙ্ক ব্লক করুন</string>
     <string name="blocked_link">ব্লক করা লিঙ্ক</string>
     <string name="link_block_site">লিঙ্ক সাইট ব্লক করুন</string>

@@ -378,8 +378,6 @@
     <string name="free_scale">ซูมเข้าด้วยสองนิ้ว</string>
     <string name="mobile_mode">มือถือ</string>
     <string name="desk_mode">เดสก์ท็อป</string>
-    <string name="desk_one">เดสก์ท็อป (แท็บปัจจุบัน)</string>
-    <string name="desk_all">เดสก์ท็อป (แท็บทั้งหมด)</string>
     <string name="block_link">บล็อกลิงค์</string>
     <string name="blocked_link">ลิงค์ที่ถูกบล็อก</string>
     <string name="link_block_site">บล็อกลิงค์ไซต์</string>

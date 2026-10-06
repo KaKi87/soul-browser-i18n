@@ -378,8 +378,6 @@
     <string name="free_scale">Zwei-Finger-Zoom</string>
     <string name="mobile_mode">Mobil</string>
     <string name="desk_mode">Desktop</string>
-    <string name="desk_one">Desktop (Aktueller Tab)</string>
-    <string name="desk_all">Desktop (Alle Tabs)</string>
     <string name="block_link">Link blockieren</string>
     <string name="blocked_link">Blockierte Links</string>
     <string name="link_block_site">Linkseite blockieren</string>

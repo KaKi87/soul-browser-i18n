@@ -378,8 +378,6 @@
     <string name="free_scale">두 손가락으로 확대</string>
     <string name="mobile_mode">모바일</string>
     <string name="desk_mode">데스크탑</string>
-    <string name="desk_one">데스크탑 (현재 탭)</string>
-    <string name="desk_all">데스크탑 (모든 탭)</string>
     <string name="block_link">링크 차단</string>
     <string name="blocked_link">차단된 링크</string>
     <string name="link_block_site">링크 사이트 차단</string>

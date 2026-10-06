@@ -378,8 +378,6 @@
     <string name="free_scale">用两根手指放大</string>
     <string name="mobile_mode">移动模式</string>
     <string name="desk_mode">桌面模式</string>
-    <string name="desk_one">桌面模式（当前标签）</string>
-    <string name="desk_all">桌面模式（所有标签）</string>
     <string name="block_link">阻止链接</string>
     <string name="blocked_link">阻止的链接</string>
     <string name="link_block_site">阻止链接站点</string>

@@ -378,8 +378,6 @@
     <string name="free_scale">تكبير بإصبعين</string>
     <string name="mobile_mode">الجوال</string>
     <string name="desk_mode">سطح المكتب</string>
-    <string name="desk_one">سطح المكتب (علامة التبويب الحالية)</string>
-    <string name="desk_all">سطح المكتب (جميع علامات التبويب)</string>
     <string name="block_link">حظر الرابط</string>
     <string name="blocked_link">الروابط المحظورة</string>
     <string name="link_block_site">حظر موقع الرابط</string>

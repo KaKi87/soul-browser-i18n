@@ -378,8 +378,6 @@
     <string name="free_scale">Phóng to bằng hai ngón tay</string>
     <string name="mobile_mode">Di động</string>
     <string name="desk_mode">Máy tính để bàn</string>
-    <string name="desk_one">Máy tính để bàn (Tab hiện tại)</string>
-    <string name="desk_all">Máy tính để bàn (Tất cả các tab)</string>
     <string name="block_link">Chặn liên kết</string>
     <string name="blocked_link">Liên kết bị chặn</string>
     <string name="link_block_site">Chặn trang web liên kết</string>

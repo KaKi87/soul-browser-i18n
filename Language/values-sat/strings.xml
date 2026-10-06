@@ -378,8 +378,6 @@
     <string name="free_scale">ᱵᱟᱨᱭᱟ ᱠᱟᱹᱴᱩᱵ ᱛᱮ ᱚᱲᱮᱡ ᱵᱷᱤᱛᱤᱨ ᱢᱮ</string>
     <string name="mobile_mode">ᱢᱚᱵᱟᱤᱞ</string>
     <string name="desk_mode">ᱰᱮᱥᱠᱴᱚᱯ</string>
-    <string name="desk_one">ᱰᱮᱥᱠᱴᱚᱯ (ᱱᱤᱛᱚᱜᱟᱜ ᱴᱮᱵᱽ)</string>
-    <string name="desk_all">ᱰᱮᱥᱠᱴᱚᱯ (ᱡᱷᱚᱛᱚ ᱴᱮᱵᱽᱠᱚ)</string>
     <string name="block_link">ᱞᱤᱝᱠ ᱟᱠᱚᱴ ᱢᱮ</string>
     <string name="blocked_link">ᱞᱤᱝ ᱠᱚ ᱟᱠᱚᱴ ᱢᱮ</string>
     <string name="link_block_site">ᱥᱟᱭᱤᱴ ᱞᱤᱝᱠ ᱟᱠᱚᱴ ᱢᱮ</string>

@@ -378,8 +378,6 @@
     <string name="free_scale">Увеличение двумя пальцами</string>
     <string name="mobile_mode">Мобильный режим</string>
     <string name="desk_mode">Режим ПК</string>
-    <string name="desk_one">Режим ПК (Текущая вкладка)</string>
-    <string name="desk_all">Режим ПК (Все вкладки)</string>
     <string name="block_link">Заблокировать ссылку</string>
     <string name="blocked_link">Заблокированные ссылки</string>
     <string name="link_block_site">Заблокировать веб-сайт по ссылке</string>

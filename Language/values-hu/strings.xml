@@ -378,8 +378,6 @@
     <string name="free_scale">Nagyítás kétfingeres zoommal</string>
     <string name="mobile_mode">Mobil</string>
     <string name="desk_mode">Mobil / Asztali</string>
-    <string name="desk_one">Asztali (Jelenlegi lap)</string>
-    <string name="desk_all">Asztali (Összes lap)</string>
     <string name="block_link">Link blokkolása</string>
     <string name="blocked_link">Blokkolt linkek</string>
     <string name="link_block_site">Link oldal blokkolása</string>

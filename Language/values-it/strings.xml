@@ -378,8 +378,6 @@
     <string name="free_scale">Ingrandisci con due dita</string>
     <string name="mobile_mode">Mobile</string>
     <string name="desk_mode">Desktop</string>
-    <string name="desk_one">Desktop (Scheda attiva)</string>
-    <string name="desk_all">Desktop (Tutte le schede)</string>
     <string name="block_link">Blocca collegamento</string>
     <string name="blocked_link">Collegamenti bloccati</string>
     <string name="link_block_site">Blocca il sito</string>

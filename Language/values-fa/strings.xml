@@ -378,8 +378,6 @@
     <string name="free_scale">با دو انگشت بزرگنمایی کنید</string>
     <string name="mobile_mode">موبایل</string>
     <string name="desk_mode">دسکتاپ</string>
-    <string name="desk_one">دسکتاپ (برگه فعلی)</string>
-    <string name="desk_all">دسکتاپ (همه برگه ها)</string>
     <string name="block_link">مسدود کردن لینک</string>
     <string name="blocked_link">لینک مسدود شده</string>
     <string name="link_block_site">مسدود شدن لینک سایت</string>

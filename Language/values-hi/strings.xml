@@ -378,8 +378,6 @@
     <string name="free_scale">दो अंगुलियों से ज़ूम इन करें</string>
     <string name="mobile_mode">गतिमान</string>
     <string name="desk_mode">डेस्कटॉप</string>
-    <string name="desk_one">डेस्कटॉप (वर्तमान टैब)</string>
-    <string name="desk_all">डेस्कटॉप (सभी टैब)</string>
     <string name="block_link">ब्लॉक लिंक</string>
     <string name="blocked_link">अवरुद्ध कड़ियाँ</string>
     <string name="link_block_site">ब्लॉक लिंक साइट</string>

@@ -378,8 +378,6 @@
     <string name="free_scale">Acercar con dos dedos</string>
     <string name="mobile_mode">Móvil</string>
     <string name="desk_mode">Escritorio</string>
-    <string name="desk_one">Escritorio (Pestaña actual)</string>
-    <string name="desk_all">Escritorio (Todas las pestañas)</string>
     <string name="block_link">Bloquear enlace</string>
     <string name="blocked_link">Enlaces bloqueados</string>
     <string name="link_block_site">Bloquear sitio de enlace</string>

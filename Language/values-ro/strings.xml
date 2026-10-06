@@ -378,8 +378,6 @@
     <string name="free_scale">Măriți cu două degete</string>
     <string name="mobile_mode">Mobil</string>
     <string name="desk_mode">Desktop</string>
-    <string name="desk_one">Desktop (Fila curentă)</string>
-    <string name="desk_all">Desktop (Toate filele)</string>
     <string name="block_link">Blocați legătura</string>
     <string name="blocked_link">Link-uri blocate</string>
     <string name="link_block_site">Blocați site-ul de linkuri</string>
