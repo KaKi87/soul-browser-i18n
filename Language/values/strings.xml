@@ -1074,4 +1074,6 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="ui_text_size_7">Photo editor effect chips (7)</string>
     <string name="ui_text_size_8">Photo editor effect chips (8)</string>
     <string name="ui_text_size_info">Address bar, lists, menus, and other chrome. Separate from webpage Text size.</string>
+    <string name="suggest_fill_space">Append space on fill</string>
+    <string name="suggest_fill_space_info">When filling a search suggestion into the address bar, append a trailing space.</string>
 </resources>
