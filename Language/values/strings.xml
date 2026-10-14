@@ -1079,4 +1079,27 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="video_controls_timeout">Controls timeout</string>
     <string name="video_controls_timeout_default">3 seconds</string>
     <string name="video_controls_timeout_disabled">Disabled</string>
+    <string name="redirector_add">Add redirect</string>
+    <string name="redirector_delete">Delete</string>
+    <string name="redirector_description">Description</string>
+    <string name="redirector_disabled_rule">Disabled</string>
+    <string name="redirector_edit">Edit redirect</string>
+    <string name="redirector_empty">No redirects yet</string>
+    <string name="redirector_example">Example URL</string>
+    <string name="redirector_example_result">Example result</string>
+    <string name="redirector_exclude">Exclude pattern</string>
+    <string name="redirector_export">Export Redirector JSON</string>
+    <string name="redirector_import">Import Redirector JSON</string>
+    <string name="redirector_import_ok">Imported %1$d redirect(s)</string>
+    <string name="redirector_include">Include pattern</string>
+    <string name="redirector_on">URL redirects</string>
+    <string name="redirector_on_info">Rewrite matching page URLs before they load (main frame only).</string>
+    <string name="redirector_pattern_type">Pattern type</string>
+    <string name="redirector_process">Process matches</string>
+    <string name="redirector_regex">Regular Expression</string>
+    <string name="redirector_rules">Redirect rules</string>
+    <string name="redirector_saved">Saved</string>
+    <string name="redirector_title">Redirector</string>
+    <string name="redirector_to">Redirect to</string>
+    <string name="redirector_wildcard">Wildcard</string>
 </resources>
