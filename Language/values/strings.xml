@@ -1102,4 +1102,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="redirector_title">Redirector</string>
     <string name="redirector_to">Redirect to</string>
     <string name="redirector_wildcard">Wildcard</string>
+    <string name="history_current_tab">Current tab</string>
 </resources>
