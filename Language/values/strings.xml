@@ -1105,4 +1105,5 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="history_current_tab">Current tab</string>
     <string name="no_recently_closed">No recently closed tabs</string>
     <string name="recently_closed">Recently closed</string>
+    <string name="reopen_last">Reopen last</string>
 </resources>
