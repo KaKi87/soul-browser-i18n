@@ -1107,4 +1107,7 @@ Sites that do not support HTTPS may not be able to connect."</string>
     <string name="recently_closed">Recently closed</string>
     <string name="reopen_last">Reopen last</string>
     <string name="update_all">Update all</string>
+    <string name="warp_connected">WARP connected</string>
+    <string name="warp_connecting">WARP connecting...</string>
+    <string name="warp_disconnected">WARP disconnected</string>
 </resources>
